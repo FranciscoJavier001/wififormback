@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wifi-backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+        value: TU_CONEXIÓN_ATLAS
