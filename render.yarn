@@ -6,4 +6,4 @@ services:
     startCommand: npm start
     envVars:
       - key: MONGO_URI
-        value: TU_CONEXIÓN_ATLAS
+        value: mongodb+srv://userstreaming001:TkYNof9NeBIyJANO@wifi.mongodb.net/wifi
